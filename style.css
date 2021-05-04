@@ -1,0 +1,51 @@
+@import 'media.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "content content content content"
+    "content content content content";
+}
+
+.youtube-content {
+    grid-area: content;
+}
+
+.card-picture img {
+    width: 27rem;
+    height: 16rem;
+}
+
+.video-info {
+    display: grid;
+    grid-template-areas:
+    "pic info";
+}
+
+.video-info img{
+    grid-area: pic;
+    width: 3rem;
+    height: 3rem;
+}
+
+.video-info article {
+    grid-area: info;
+}
+
+.grid-container .youtube-content .youtube-card .video-info article {
+    margin-left: 0rem;
+}
+
+.youtube-card {
+    display: grid;
+    grid-template-rows: 0.5fr;
+    padding-left: 1rem;
+    padding-top: 1rem;
+
+}
