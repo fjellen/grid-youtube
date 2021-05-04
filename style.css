@@ -25,19 +25,18 @@
 
 .video-info {
     display: grid;
-    grid-template-areas:
-    "pic info";
+    grid-template-columns: 3.5rem auto;
+    grid-gap: 1rem;
+    padding-top: 0.5rem;
 }
 
 .video-info img{
-    grid-area: pic;
     width: 3rem;
     height: 3rem;
     cursor: pointer;
 }
 
 .video-info article {
-    grid-area: info;
 }
 
 .grid-container .youtube-content .youtube-card .video-info article {
