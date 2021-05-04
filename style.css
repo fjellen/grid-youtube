@@ -20,6 +20,7 @@
 .card-picture img {
     width: 27rem;
     height: 16rem;
+    cursor: pointer;
 }
 
 .video-info {
@@ -32,6 +33,7 @@
     grid-area: pic;
     width: 3rem;
     height: 3rem;
+    cursor: pointer;
 }
 
 .video-info article {
